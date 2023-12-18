@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="calculator">
+        <form class="bar">
+            <input type="text" id="bar" name="bar">
+        </form>
+        <table class="flexContainer">
+            <thead>
+                <tr>
+                  <th onclick="opperator('+')" class="special">+</th>
+                  <th onclick="opperator('-')" class="special">-</th>
+                  <th onclick="opperator('x')" class="special">x</th>
+                  <th onclick="opperator('/')" class="special">/</th>
+                </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td onclick="input(7)" class="num">7</td>
+                   <td onclick="input(8)" class="num">8</td>
+                   <td onclick="input(9)" class="num">9</td>
+                   <td rowspan="4" onclick="enter()">=</td>
+                 </tr>
+                 <tr>
+                   <td onclick="input(4)" class="num">4</td>
+                   <td onclick="input(5)" class="num">5</td>
+                   <td onclick="input(6)" class="num">6</td>
+                 </tr>
+                 <tr>
+                   <td onclick="input(1)" class="num">1</td>
+                   <td onclick="input(2)" class="num">2</td>
+                   <td onclick="input(3)" class="num">3</td>
+                 </tr>
+                 <tr>
+                   <td onclick="input(0)" class="num">0</td>
+                   <td onclick="input('.')" class="num">.</td>
+                   <td onclick="reset()">c</td>
+                 </tr>
+              </tbody>
+        </table>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>

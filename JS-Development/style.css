@@ -1,0 +1,30 @@
+#calculator{
+    width: 500px;
+    height: 450px;
+    border: 1px solid black;
+    padding: 10px;
+}
+#bar{
+    width: 98%;
+    height: 50px;
+}
+table{
+    border-spacing: 10px;
+}
+tr, td, th{
+    border: 1px solid black;
+    font-size: 190%;
+    width: 200px;
+    text-align: center;
+
+}
+
+th{
+    background-color: gray;
+}
+td{
+    background-color: rgb(196, 196, 196);
+}
+input{
+    font-size: 40px;
+}
